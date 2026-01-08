@@ -56,6 +56,12 @@
                     "label": "@aaroecode",
                     "link": {"href": "https://github.com/aaroecode", "tooltipString": "see_on_github"},
                     "faIcon": "fa-brands fa-github"
+                },
+                {
+                    "id": 4,
+                    "label": "@hiteshsethi",
+                    "link": {"href": "https://www.linkedin.com/in/hitesh-sethi-254b44295/", "tooltipString": "see_on_linkedin"},
+                    "faIcon": "fa-brands fa-linkedin"
                 }
             ]
         },
