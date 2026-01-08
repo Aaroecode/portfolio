@@ -5,25 +5,25 @@
                 "title_short": "Welcome!",
                 "title_short_nav": "About me",
                 "title_long_prefix": "Hello...",
-                "title_long": "I'm {{Mark Choi!}}"
+                "title_long": "I'm {{Hitesh Sethi!}}"
             },
             "es": {
                 "title_short": "¡Saludos!",
                 "title_short_nav": "Sobre mí",
                 "title_long_prefix": "Hola...",
-                "title_long": "Soy {{Mark Choi!}}"
+                "title_long": "Soy {{Hitesh Sethi!}}"
             },
             "fr": {
                 "title_short": "Salut !",
                 "title_short_nav": "À propos",
                 "title_long_prefix": "Salut...",
-                "title_long": "Je suis {{Mark Choi !}}"
+                "title_long": "Je suis {{Hitesh Sethi !}}"
             },
             "ko": {
                 "title_short": "환영합니다!",
                 "title_short_nav": "소개",
                 "title_long_prefix": "안녕하세요...",
-                "title_long": "저는 {{최민석}}입니다!"
+                "title_long": "저는 {{Hitesh Sethi}}입니다!"
             }
         }
     },
@@ -41,20 +41,20 @@
             "items": [
                 {
                     "id": 1,
-                    "label": "Cupertino – CA",
+                    "label": "Delhi NCR – IN 🇮🇳",
                     "link": {"href": "", "tooltipString": ""},
                     "faIcon": "pi pi-map-marker"
                 },
                 {
                     "id": 2,
-                    "label": "mark.choi@dev.com",
-                    "link": {"href": "mailto:mark.choi@dev.com", "tooltipString": "email_me"},
+                    "label": "aaroecode@gmail.com",
+                    "link": {"href": "mailto:aaroecode@gmail.com", "tooltipString": "email_me"},
                     "faIcon": "fa-regular fa-envelope"
                 },
                 {
                     "id": 3,
-                    "label": "@ryanbalieiro",
-                    "link": {"href": "https://github.com/ryanbalieiro", "tooltipString": "see_on_github"},
+                    "label": "@aaroecode",
+                    "link": {"href": "https://github.com/aaroecode", "tooltipString": "see_on_github"},
                     "faIcon": "fa-brands fa-github"
                 }
             ]
@@ -81,7 +81,7 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "en": {
-                            "text": "<p>I’m a {{PHP}} developer with [[over a decade]] of experience, specializing in backend development with some frontend work as well. I also have hands-on experience with C++, C#, Go, and Python in production environments.</p><p>This diverse background gives me the flexibility to adapt to a wide range of project needs, whether it's building scalable APIs, optimizing system performance, or contributing to full-stack solutions.</p><p>I look forward to collaborating [[with you!]]</p>"
+                            "text": "<p>I’m a {{Python Backend Developer}} specializing in [[API-driven systems]], [[cloud-deployed services]], and [[automation-heavy workflows]]. My work focuses primarily on backend architecture, with practical experience integrating AI, data pipelines, and infrastructure-level tooling.</p><p>I’ve built and maintained production systems using [[FastAPI]] and [[Flask]], worked with {{NLP}} and {{LLM-based pipelines}}, and deployed scalable services using {{Docker}}, {{Linux}}, and {{cloud platforms}}. This background allows me to move comfortably between backend logic, data processing, and system optimization.</p><p>I’m always open to collaborating on projects that value correctness, scalability, and well-reasoned engineering decisions.</p>"
                         },
                         "es": {
                             "text": "<p>Soy un desarrollador de {{PHP}} con [[más de una década]] de experiencia, especializado en desarrollo backend y con algo de experiencia en frontend. También tengo experiencia práctica en entornos de producción con C++, C#, Go y Python.</p><p>Este variado historial me permite adaptarme a una amplia gama de necesidades de proyectos, ya sea construyendo APIs escalables, optimizando el rendimiento de sistemas o contribuyendo a soluciones full-stack.</p><p>¡Espero con interés colaborar [[contigo!]]</p>"
@@ -97,126 +97,7 @@
             ]
         },
 
-        {
-            "id": 3,
-            "component": "ArticleTestimonials",
-            "locales": {
-                "en": {"title": "Client {{testimonials}}"},
-                "es": {"title": "Testimonios de {{clientes}}"},
-                "fr": {"title": "Témoignages de {{clients}}"},
-                "ko": {"title": "{{고객}} 추천사"}
-            },
-            "settings": {
-                "order_items_by": "id",
-                "order_items_sort": "asc"
-            },
-            "items": [
-                {
-                    "id": 1,
-                    "label": "Anita Bath",
-                    "link": {"href": "https://linkedin.com", "tooltipString": "open_website"},
-                    "img": "images/pictures/testimonial-person-female-1.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "locales": {
-                        "en": {
-                            "title": "CEO at [[SalesForce]]",
-                            "text": "Working with Mark was a truly [[transformative experience]]. His outstanding programming skills and collaborative spirit not only elevated the quality of our project but also brought a renewed sense of motivation and purpose to us."
-                        },
-                        "es": {
-                            "title": "CEO en [[SalesForce]]",
-                            "text": "Trabajar con Mark fue una [[experiencia transformadora]]. Su gran habilidad para programar y su espíritu colaborativo mejoraron el proyecto y nos devolvieron la motivación y el propósito."
-                        },
-                        "fr": {
-                            "title": "PDG de [[SalesForce]]",
-                            "text": "Travailler avec Mark fut une [[expérience transformante]]. Ses compétences en programmation et son esprit d’équipe ont élevé le projet et ravivé notre motivation et notre but."
-                        },
-                        "ko": {
-                            "title": "세일즈포스 CEO",
-                            "text": "Mark와 함께한 시간은 [[변화의 경험]]이었습니다. 그의 뛰어난 프로그래밍 실력과 협업 정신은 프로젝트 품질을 높이고 우리에게 새로운 동기를 불어넣었습니다."
-                        }
-                    }
-                },
-                {
-                    "id": 2,
-                    "label": "Lou Natic",
-                    "link": {"href": "https://github.com", "tooltipString": "open_website"},
-                    "img": "images/pictures/testimonial-person-male-1.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "locales": {
-                        "en": {
-                            "title": "Lead Developer at [[GitHub]]",
-                            "text": "Having Mark on our team was an invaluable asset. His [[deep programming insights and mentorship]] not only elevated our projects but also empowered us to tackle every challenge with confidence and creativity."
-                        },
-                        "es": {
-                            "title": "Desarrollador Principal en [[GitHub]]",
-                            "text": "Tener a Mark fue un recurso invaluable. Sus [[profundos conocimientos y mentoría]] mejoraron nuestros proyectos y nos dieron confianza para afrontar cualquier desafío con creatividad."
-                        },
-                        "fr": {
-                            "title": "Développeur Principal chez [[GitHub]]",
-                            "text": "La présence de Mark fut un atout inestimable. Ses [[connaissances en programmation et son mentorat]] ont renforcé nos projets et notre capacité à relever les défis avec assurance."
-                        },
-                        "ko": {
-                            "title": "[[GitHub]] 수석 개발자",
-                            "text": "Mark는 소중한 자산이었습니다. 그의 [[깊은 프로그래밍 통찰력과 멘토링]]은 프로젝트를 향상시키고 도전을 자신감과 창의성으로 해결할 수 있게 해주었습니다."
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "label": "Paige Turner",
-                    "link": {"href": "", "tooltipString": ""},
-                    "img": "images/pictures/testimonial-person-female-2.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "locales": {
-                        "en": {
-                            "title": "Managing Director at [[Dingga]]",
-                            "text": "Collaborating with Mark was a true [[game changer]] for our entire development process. His [[deep technical expertise]], creative problem-solving, and proactive mindset were absolutely invaluable."
-                        },
-                        "es": {
-                            "title": "Directora General en [[Dingga]]",
-                            "text": "Colaborar con Mark fue un verdadero [[punto de inflexión]]. Su [[gran experiencia técnica]], creatividad y mentalidad proactiva fueron absolutamente invaluables para nuestro equipo."
-                        },
-                        "fr": {
-                            "title": "Directrice Générale chez [[Dingga]]",
-                            "text": "Travailler avec Mark a été un vrai [[tournant]]. Son [[expertise technique approfondie]], sa créativité et sa proactivité ont été d’une valeur inestimable pour notre développement."
-                        },
-                        "ko": {
-                            "title": "딩가 전무이사",
-                            "text": "Mark와의 협업은 진정한 [[게임 체인저]]였습니다. 그의 [[깊이 있는 기술 전문성]], 창의적인 문제 해결력, 능동적인 태도는 매우 소중한 자산이었습니다."
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "label": "Chris P. Bacon",
-                    "link": {"href": "https://dribbble.com", "tooltipString": "open_website"},
-                    "img": "images/pictures/testimonial-person-male-2.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "locales": {
-                        "en": {
-                            "title": "Creative Director at [[Dribbble]]",
-                            "text": "Mark Choi's [[attention to detail]] and his [[innovative thinking]] brought a fresh perspective to our whole design process! Simply amazing!"
-                        },
-                        "es": {
-                            "title": "Director Creativo en [[Dribbble]]",
-                            "text": "La [[atención al detalle]] y el [[pensamiento innovador]] de Mark Choi aportaron una perspectiva fresca a todo nuestro proceso de diseño. ¡Simplemente increíble!"
-                        },
-                        "fr": {
-                            "title": "Directeur Créatif chez [[Dribbble]]",
-                            "text": "L’[[attention aux détails]] et la [[pensée innovante]] de Mark Choi ont apporté une perspective nouvelle à tout notre processus de design ! Simplement incroyable !"
-                        },
-                        "ko": {
-                            "title": "[[Dribbble]] 크리에이티브 디렉터",
-                            "text": "마크 최의 [[세심한 배려]]와 [[혁신적인 사고]]가 전체 디자인 과정에 신선한 시각을 가져왔습니다! 정말 놀랍습니다!"
-                        }
-                    }
-                }
-            ]
-        },
+        
 
         {
             "id": 4,
@@ -234,15 +115,15 @@
             "items": [
                 {
                     "id": 1,
-                    "faIcon": "fa-solid fa-video",
+                    "faIcon": "fa-solid fa-gears",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
                     "copyToClipboardButton": false,
                     "locales": {
                         "en": {
-                            "title": "{{AI}} video editing",
-                            "text": "Learning to use AI tools to enhance my videos."
+                            "title": "{{Exploration}}",
+                            "text": "Exploring new ideas, facts, and systems through logic-driven curiosity."
                         },
                         "es": {
                             "title": "Edición de video con {{AI}}",
@@ -260,15 +141,15 @@
                 },
                 {
                     "id": 2,
-                    "faIcon": "fa-solid fa-palette",
+                    "faIcon": "fa-solid fa-brain",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
                     "copyToClipboardButton": false,
                     "locales": {
                         "en": {
-                            "title": "{{Arts}} & Illustration",
-                            "text": "Practicing digital art and exploring new styles."
+                            "title": "{{Brainstorming}}",
+                            "text": "Refining ideas, finding flaws, contradictions and exceptions."
                         },
                         "es": {
                             "title": "{{Arte}} y Ilustración",
@@ -286,15 +167,15 @@
                 },
                 {
                     "id": 3,
-                    "faIcon": "fa-solid fa-chart-line",
+                    "faIcon": "fa-solid fa-user",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
                     "copyToClipboardButton": false,
                     "locales": {
                         "en": {
-                            "title": "{{Investing}} & Finance",
-                            "text": "Learning the basics of stocks and personal finance."
+                            "title": "{{Psychology}}",
+                            "text": "Understanding human behavior through logic, observation, and pattern recognition."
                         },
                         "es": {
                             "title": "{{Inversión}} y Finanzas",
@@ -312,15 +193,15 @@
                 },
                 {
                     "id": 4,
-                    "faIcon": "fa-solid fa-window-restore",
+                    "faIcon": "fa-solid fa-wave-square",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
                     "copyToClipboardButton": false,
                     "locales": {
                         "en": {
-                            "title": "{{UX}} design",
-                            "text": "Studying user experience principles."
+                            "title": "{{Piano}}",
+                            "text": "Piano practice as a balance between structure, emotion, and precision."
                         },
                         "es": {
                             "title": "Diseño {{UX}}",
@@ -333,59 +214,6 @@
                         "ko": {
                             "title": "{{UX}} 디자인",
                             "text": "사용자 경험 원칙을 공부하기."
-                        }
-                    }
-                },
-                {
-                    "id": 5,
-                    "img": "",
-                    "faIcon": "fa-solid fa-camera-retro",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "label": null,
-                    "link": {"href": null, "tooltipString": null},
-                    "copyToClipboardButton": false,
-                    "locales": {
-                        "en": {
-                            "title": "{{Photography}} & Photoshop",
-                            "text": "Enhancing photos through creative editing techniques."
-                        },
-                        "es": {
-                            "title": "{{Fotografía}} y Photoshop",
-                            "text": "Mejorando fotos a través de técnicas creativas de edición."
-                        },
-                        "fr": {
-                            "title": "{{Photographie}} & Photoshop",
-                            "text": "Améliorer des photos avec des techniques de montage créatives."
-                        },
-                        "ko": {
-                            "title": "{{사진}} 및 포토샵",
-                            "text": "창의적인 편집 기술을 통해 사진을 향상시키기."
-                        }
-                    }
-                },
-                {
-                    "id": 6,
-                    "faIcon": "fa-solid fa-drum-steelpan",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "label": null,
-                    "link": {"href": null, "tooltipString": null},
-                    "copyToClipboardButton": false,
-                    "locales": {
-                        "en": {
-                            "title": "Playing {{drums}}",
-                            "text": "Exploring different genres and improving my skills."
-                        },
-                        "es": {
-                            "title": "Tocar {{batería}}",
-                            "text": "Explorando diferentes géneros y mejorando mis habilidades."
-                        },
-                        "fr": {
-                            "title": "Jouer de la {{batterie}}",
-                            "text": "Explorer différents genres et améliorer mes compétences."
-                        },
-                        "ko": {
-                            "title": "{{드럼}} 연주",
-                            "text": "다양한 장르를 탐험하고 기술을 향상시키기."
                         }
                     }
                 }
