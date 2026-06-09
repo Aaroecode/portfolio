@@ -50,7 +50,7 @@
                             "title": "{{Software}} & {{AI}} Engineer",
                             "province": "Remote",
                             "country": "",
-                            "institution": "Client Projects",
+                            "institution": "Hilton Grand Vacations",
                             "text": "<p>Developed a call recording analysis pipeline using Python NLP and a custom NER modelto identify rejection causes.</p><p>Optimized ETL and annotation workflows, cutting manual service-desk effort by ~40%.</p><p>Contributed to a call propensity model reducing rejection rates from ~50% to ~30% while maintaining revenue.</p>",
                             "list": [],
                             "tags": ["Python", "Pandas", "NLP", "ELT", "NER"]
@@ -96,7 +96,7 @@
                             "title": "{{Python Backend}} Developer",
                             "province": "Gurugram",
                             "country": "India",
-                            "institution": "Namadisoft",
+                            "institution": "Namdisoft",
                             "text": "<p>Built CivicLink, a WhatsApp-based civic reporting system handling images, location, and structured inputs via FastAPI + WhatsApp Cloud API.</p><p>Integrated AI-based image analysis and Elasticsearch, reducing manual reporting steps by ~60% and enabling real-time analytics.</p><p>Delivered a production-ready backend with Dockerized deployment, API security, and Linux-based logging/monitoring.</p>",
                             "list": [],
                             "tags": ["FastAPI", "WhatsApp Cloud API", "Docker", "Linux", "Elasticsearch"]

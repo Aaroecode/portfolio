@@ -2,7 +2,7 @@
     "name": "Hitesh Sethi",
 
     "profilePictureUrl": "images/pictures/profile-picture.jpg",
-    "resumePdfUrl": "",
+    "resumePdfUrl": "Resume_1405.pdf",
 
     "statusCircleVisible": true,
     "statusCircleVariant": "available",
@@ -15,8 +15,7 @@
             "status_message_available_for_freelance": "Open to Work!",
             "roles": [
                 "Python Backend Developer",
-                "DevOps Engineer",
-                "AI/ML Engineer"
+                "Backend & AI Engineer"
             ]
         },
         "es": {

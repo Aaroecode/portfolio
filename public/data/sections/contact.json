@@ -11,23 +11,22 @@
                 "title_short": "Contacto",
                 "title_short_nav": "Contacto",
                 "title_long_prefix": "No dudes en",
-                "title_long": "{{Contácta}}me"
+                "title_long": "{{Cont\u00e1cta}}me"
             },
             "fr": {
                 "title_short": "Contact",
                 "title_short_nav": "Contact",
-                "title_long_prefix": "N'hésitez pas à",
+                "title_long_prefix": "N'h\u00e9sitez pas \u00e0",
                 "title_long": "Me {{Contacter}}"
             },
             "ko": {
-                "title_short": "연락처",
-                "title_short_nav": "연락처",
-                "title_long_prefix": "주저하지 말고",
-                "title_long": "{{연락}} 주세요"
+                "title_short": "\uc5f0\ub77d\ucc98",
+                "title_short_nav": "\uc5f0\ub77d\ucc98",
+                "title_long_prefix": "\uc8fc\uc800\ud558\uc9c0 \ub9d0\uace0",
+                "title_long": "{{\uc5f0\ub77d}} \uc8fc\uc138\uc694"
             }
         }
     },
-
     "articles": [
         {
             "id": 1,
@@ -46,26 +45,25 @@
                 },
                 "es": {
                     "contact_thank_you_title": "{{Gracias}} por el contacto!",
-                    "contact_thank_you_body": "Tu mensaje ha sido recibido, y me pondré en contacto contigo pronto. Aprecio tu tiempo y espero conectarme contigo.",
-                    "contact_thank_you_footer": "La respuesta se enviará a tu dirección de correo electrónico: {{$email}}",
-                    "title": "Envíame un {{mensaje}}"
+                    "contact_thank_you_body": "Tu mensaje ha sido recibido, y me pondr\u00e9 en contacto contigo pronto. Aprecio tu tiempo y espero conectarme contigo.",
+                    "contact_thank_you_footer": "La respuesta se enviar\u00e1 a tu direcci\u00f3n de correo electr\u00f3nico: {{$email}}",
+                    "title": "Env\u00edame un {{mensaje}}"
                 },
                 "fr": {
                     "contact_thank_you_title": "{{Merci}} pour le contact!",
-                    "contact_thank_you_body": "Votre message a été reçu, et je vous contacterai bientôt. J'apprécie votre temps et j'ai hâte de me connecter avec vous!",
-                    "contact_thank_you_footer": "La réponse sera envoyée à votre adresse e-mail: {{$email}}",
+                    "contact_thank_you_body": "Votre message a \u00e9t\u00e9 re\u00e7u, et je vous contacterai bient\u00f4t. J'appr\u00e9cie votre temps et j'ai h\u00e2te de me connecter avec vous!",
+                    "contact_thank_you_footer": "La r\u00e9ponse sera envoy\u00e9e \u00e0 votre adresse e-mail: {{$email}}",
                     "title": "Envoyez-moi un {{message}}"
                 },
                 "ko": {
-                    "contact_thank_you_title": "{{감사합니다}}!",
-                    "contact_thank_you_body": "귀하의 메시지를 받았으며 곧 연락드리겠습니다. 귀하의 시간에 감사드리며 연결되기를 기대합니다!",
-                    "contact_thank_you_footer": "답변은 귀하의 이메일 주소 {{$email}}로 전송됩니다.",
-                    "title": "{{메시지를}} 보내주세요"
+                    "contact_thank_you_title": "{{\uac10\uc0ac\ud569\ub2c8\ub2e4}}!",
+                    "contact_thank_you_body": "\uadc0\ud558\uc758 \uba54\uc2dc\uc9c0\ub97c \ubc1b\uc558\uc73c\uba70 \uace7 \uc5f0\ub77d\ub4dc\ub9ac\uaca0\uc2b5\ub2c8\ub2e4. \uadc0\ud558\uc758 \uc2dc\uac04\uc5d0 \uac10\uc0ac\ub4dc\ub9ac\uba70 \uc5f0\uacb0\ub418\uae30\ub97c \uae30\ub300\ud569\ub2c8\ub2e4!",
+                    "contact_thank_you_footer": "\ub2f5\ubcc0\uc740 \uadc0\ud558\uc758 \uc774\uba54\uc77c \uc8fc\uc18c {{$email}}\ub85c \uc804\uc1a1\ub429\ub2c8\ub2e4.",
+                    "title": "{{\uba54\uc2dc\uc9c0\ub97c}} \ubcf4\ub0b4\uc8fc\uc138\uc694"
                 }
             },
             "items": null
         },
-
         {
             "id": 2,
             "component": "ArticleInfoList",
@@ -74,60 +72,90 @@
                 "order_items_sort": "asc"
             },
             "locales": {
-                "en": {"title": "Or if you {{prefer}}..."},
-                "es": {"title": "O si {{prefieres}}..."},
-                "fr": {"title": "Ou si vous {{préférez}}..."},
-                "ko": {"title": "또는 {{원하시면}}..."}
+                "en": {
+                    "title": "Or if you {{prefer}}..."
+                },
+                "es": {
+                    "title": "O si {{prefieres}}..."
+                },
+                "fr": {
+                    "title": "Ou si vous {{pr\u00e9f\u00e9rez}}..."
+                },
+                "ko": {
+                    "title": "\ub610\ub294 {{\uc6d0\ud558\uc2dc\uba74}}..."
+                }
             },
             "items": [
                 {
                     "id": 1,
                     "faIcon": "fa-solid fa-phone",
-                    "faIconColors": { "bg": "", "fill": "" },
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "label": "+91 8920916103",
-                    "link": {"href": "tel:918920916103", "tooltipString": "call_me"},
+                    "link": {
+                        "href": "tel:918920916103",
+                        "tooltipString": "call_me"
+                    },
                     "copyToClipboardButton": true,
                     "locales": {
-                        "en": {"title": "Phone"},
-                        "es": {"title": "Teléfono"},
-                        "fr": {"title": "Téléphone"},
-                        "ko": {"title": "전화"}
+                        "en": {
+                            "title": "Phone"
+                        },
+                        "es": {
+                            "title": "Tel\u00e9fono"
+                        },
+                        "fr": {
+                            "title": "T\u00e9l\u00e9phone"
+                        },
+                        "ko": {
+                            "title": "\uc804\ud654"
+                        }
                     }
                 },
                 {
-                    "id":2,
+                    "id": 2,
                     "faIcon": "fa-solid fa-envelope",
-                    "faIconColors": { "bg": "", "fill": "" },
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "label": "aaroecode@gmail.com",
-                    "link": {"href": "mailto:aaroecode@gmail.com", "tooltipString": "email_me"},
+                    "link": {
+                        "href": "mailto:aaroecode@gmail.com",
+                        "tooltipString": "email_me"
+                    },
                     "copyToClipboardButton": true,
                     "locales": {
-                        "en": {"title": "E-mail"},
-                        "ko": {"title": "이메일"}
+                        "en": {
+                            "title": "E-mail"
+                        },
+                        "ko": {
+                            "title": "\uc774\uba54\uc77c"
+                        }
                     }
                 },
                 {
                     "id": 3,
                     "faIcon": "fa-brands fa-linkedin",
-                    "faIconColors": { "bg": "", "fill": "" },
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "label": "@aaroecode",
-                    "link": {"href": "https://www.linkedin.com/in/hitesh-sethi-254b44295/", "tooltipString": "open_website"},
+                    "link": {
+                        "href": "https://www.linkedin.com/in/hitesh-sethi-254b44295/",
+                        "tooltipString": "open_website"
+                    },
                     "copyToClipboardButton": false,
                     "locales": {
-                        "en": {"title": "LinkedIn"},
-                        "ko": {"title": "링크드인"}
-                    }
-                },
-                {
-                    "id": 5,
-                    "faIcon": "fa-brands fa-instagram",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@aaroegun",
-                    "link": {"href": "https://www.instagram.com/aaroegun/", "tooltipString": "open_website"},
-                    "copyToClipboardButton": false,
-                    "locales": {
-                        "en": {"title": "Instagram"},
-                        "ko": {"title": "인스타그램"}
+                        "en": {
+                            "title": "LinkedIn"
+                        },
+                        "ko": {
+                            "title": "\ub9c1\ud06c\ub4dc\uc778"
+                        }
                     }
                 }
             ]
