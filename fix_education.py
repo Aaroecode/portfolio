@@ -1,4 +1,6 @@
-{
+import json
+
+education = {
     "title": {
         "locales": {
             "en": {
@@ -8,22 +10,22 @@
                 "title_long": "{{Education}} Background"
             },
             "es": {
-                "title_short": "Educaci\u00f3n",
-                "title_short_nav": "Educaci\u00f3n",
+                "title_short": "Educación",
+                "title_short_nav": "Educación",
                 "title_long_prefix": "Esta es mi",
-                "title_long": "{{Formaci\u00f3n}} Educativa"
+                "title_long": "{{Formación}} Educativa"
             },
             "fr": {
-                "title_short": "\u00c9ducation",
-                "title_short_nav": "\u00c9ducation",
+                "title_short": "Éducation",
+                "title_short_nav": "Éducation",
                 "title_long_prefix": "C'est mon",
-                "title_long": "{{Contexte}} \u00c9ducatif"
+                "title_long": "{{Contexte}} Éducatif"
             },
             "ko": {
-                "title_short": "\uad50\uc721",
-                "title_short_nav": "\uad50\uc721",
-                "title_long_prefix": "\uc774\uac83\uc740 \ub0b4",
-                "title_long": "{{\uad50\uc721\uc801}} \ubc30\uacbd"
+                "title_short": "교육",
+                "title_short_nav": "교육",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{교육적}} 배경"
             }
         }
     },
@@ -41,18 +43,9 @@
                     "id": 1,
                     "img": "images/pictures/niu.svg",
                     "faIcon": "",
-                    "faIconColors": {
-                        "bg": "",
-                        "fill": ""
-                    },
-                    "dateStart": {
-                        "year": 2022,
-                        "month": 7
-                    },
-                    "dateEnd": {
-                        "year": 2026,
-                        "month": 6
-                    },
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2022, "month": 7},
+                    "dateEnd": {"year": 2026, "month": 6},
                     "locales": {
                         "en": {
                             "title": "{{Bachelor}} of Technology",
@@ -69,3 +62,8 @@
         }
     ]
 }
+
+with open('public/data/sections/education.json', 'w') as f:
+    json.dump(education, f, indent=4)
+
+print("Fixed education.json")
